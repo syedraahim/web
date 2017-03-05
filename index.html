@@ -1,0 +1,182 @@
+<html>
+<head>
+
+    <title>_____________</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body bg color="black">
+
+		<div id="header">			
+		<ul>
+			<li><a href="#header">Home</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+
+		</ul>
+		</div>
+		<br>
+		<br>
+		<br>
+
+		<div>
+			  <img class="mySlides1" src="images/img2.jpg">
+			  <img class="mySlides1" src="images/img4.jpg">
+			  <img class="mySlides1" src="images/img5.jpg">
+			  <img class="mySlides1" src="images/img6.jpg">
+			  <img class="mySlides1" src="images/img7.jpg">
+			  <img class="mySlides1" src="images/img8.jpg">
+
+		</div>
+			<font size="4px">
+	
+			<p>
+			Crochet is a process of creating fabric by interlocking loops of yarn, thread, or strands of other materials using a crochet hook.
+			</p>
+			</font>
+		<div id="images">
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides1");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}
+					x[myIndex-1].style.display = "block";
+					setTimeout(carousel, 2000); 
+				}
+			</script>	
+
+		</div>
+		<div id="gallery">
+		<br>
+		<br>
+		
+			<font size="4px">
+				<h1>Gallery</h1>
+			</font>
+			<br>
+			<br>
+			<br>
+				<table>
+					<tr>
+						<td>
+							<p>
+							<a href="froks.html" target=_blank>
+							<img class="mySlides" src="new folder/img13.jpg">
+							</p>
+						</td>
+						<td>
+							<p>	
+							<a href="mobileCover.html" target=_blank>
+							<img class="mySlides" src="new folder/img1.jpg">
+							</p>
+						</td>
+						<td><img class="mySlides" src="new folder/img2.jpg"></td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+							<a href="bags.html" target=_blank>
+							<img class="mySlides" src="new folder/img12.jpg">
+							</p>
+							
+						</td>
+						<td>
+							<p>
+							<a href="froks.html" target=_blank>
+							<img class="mySlides" src="new folder/img4.jpg">
+							</p>
+						</td>
+						<td>
+							<p>	
+								<a href="mobileCover.html" target=_blank>
+								<img class="mySlides" src="new folder/img5.jpg">
+						</td>
+
+					</tr>
+					<tr>
+						<td>
+							<p>
+							<a href="mobileCover.html" target=_blank>
+								<img class="mySlides" src="new folder/img6.jpg">
+							</p>
+							</td>
+						</p>
+					<td>
+							<p>
+							<a href="froks.html" target=_blank>
+							<img class="mySlides" src="new folder/img7.jpg"></td>
+						<td><img class="mySlides" src="new folder/img8.jpg"></td>
+
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<a href="ladiesShirt.html" target=_blank>
+								<img class="mySlides" src="new folder/img9.jpg"></td>
+							</p>
+						<td>
+						<p>
+							<a href="bags.html" target=_blank>
+							<img class="mySlides" src="new folder/img10.jpg">
+						</p>
+						</td>
+						<td>
+							<p>
+								<a href="ladiesShirt.html" target=_blank>
+								<img class="mySlides" src="new folder/img11.jpg">
+							</p>
+						</td>
+
+					</tr>
+				</table>
+		</div>			
+			
+		</div>
+		<div id="contact">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<font size="4px">
+			<h1 >Contact Us</h1>
+				<form id="contact" action="#" method="POST">
+					<div class="row">
+						<label for="name">Your name:</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+					</div>
+					<div class="row">
+						<label for="email">Your email:</label><br />
+						<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+					</div>
+					<div class="row">
+						<label for="message">Your message:</label><br />
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+					</div>
+					<br>
+				<input id="submit_button" type="submit" value="Send email" />
+				</form>	
+		</font>
+	
+			
+			
+		</div>
+		<div id="footer">
+			<font>This website is a project of student's from _____________, if you would like to inquire us regarding this domain or simply want to contribute to our website then you may visit the <a href="#contact">Contact Us</a></font><br>
+			<font>Phone: _____________ </font><br>
+			<font>Address: _____________,_____________,_____________ </font>
+		</div>
+		
+
+	</body>
+</html>
+
